@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="logo" width="70rem">
+        </div>
+        <nav>
+            <ul>
+                <li><a class="home-btn" href="#">Home</a></li>
+                <li><a class="menu-btn" href="#">Menu</a></li>
+                <li><a class="shop-btn" href="#">Shop</a></li>
+                <li><a class="about-btn" href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>
+   <hr >
+    <main>
+         
+<div class="hero">
+    
+    <div class="Sale">
+        <div class="banner">
+        <p class="about">Ready for your dream garden? <b>30% OFF</b> for 5 lucky customers only!
+Let Lucky Shrub transform your space into a personal oasis.
+Hurry - this exclusive offer won't last long!
+
+        </p>
+</div>
+    </div>
+    <div class="container">
+    <div class="cards card1">
+        <p class="figure">Complete Care</p>
+        <img class="plants" src="plant2.jpg">
+        <p class="para">Let Jason's architectural vision bring your outdoor dreams to life with stunning landscapes that thrive in Tucson's unique climate. Lucky Shrub designs, creates, and maintains beautiful retreats that turn your yard into an oasis you can be proud of.</p>
+    </div>
+    <div class="cards card2">
+        <p class="figure">Indoor Oasis</p>
+        <img class="plants" src="plant1.jpg">
+        <p class="para">Transform your home or office with Lucky Shrub's curated selection of indoor plants, from low-maintenance succulents to statement fiddle leaf figs. Maria's nursery expertise helps you find the perfect green companions for any indoor space.</p>
+    </div>
+    <div class="cards card3">
+        <p class="figure">Garden Paradise</p>
+        <img class="plants" src="plant3.jpg">
+        <p class="para">Your one-stop shop for everything green at Lucky Shrub's full-service nursery with plants, pots, soil, and expert advice from our passionate team. Enjoy ongoing maintenance services to keep your gardens flourishing year-round in Arizona's desert climate.</p>
+    </div>
+    </div>
+</div>
+    </main>
+    <hr>
+    <footer>
+        <div class="end">
+       <img class="small-img" src="logo.png">
+       
+       <p class="end-text">copyright Lucky Shrub</p>
+  
+       </div>
+    </footer>
+    <script>
+        let homebutton=document.querySelector('.home-btn');
+        homebutton.addEventListener("click",(e)=>{
+e.preventDefault();
+window.scrollTo({
+    top:100,
+    behavior:"smooth"
+})
+})
+    let Menubtn=document.querySelector('.menu-btn');
+        Menubtn.addEventListener("click",(e)=>{
+e.preventDefault();
+window.scrollTo({
+    top:400,
+    behavior:"smooth"
+})
+        })
+        let Aboutbtn=document.querySelector('.about-btn');
+        Aboutbtn.addEventListener("click",(e)=>{
+e.preventDefault();
+window.scrollTo({
+    top:1000,
+    behavior:"smooth"
+})
+        })
+        let Shopbtn=document.querySelector(".shop-btn");
+        Shopbtn.addEventListener("click",(e)=>{
+            e.preventDefault();
+            alert("Shopping Will be Allowed Soon!");
+        })
+    </script>
+</body>
+</html>
