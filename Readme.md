@@ -1,6 +1,8 @@
 # Lucky Shrub
 
 Lucky Shrub is a simple responsive website created as the final project for Coursera's HTML and CSS in Depth course. It was built using only HTML and vanilla CSS without any frameworks.
+                    
+## https://hashimmatloob.github.io/LuckyShrub/
 
 ## Features
     - Fully responsive layout using CSS Flexbox
